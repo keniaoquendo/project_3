@@ -18,7 +18,7 @@ We hope that our app/website brings awareness to the over-crowding of shelters o
 1. Petfinder.com API call
 2. Clean data in Jupyter notebook
 3. Export as cleaned data as ‘jan29_states_final.csv’
-4. In MongoDB create database (project_3’) and collection (‘animals’)
+4. In MongoDB create database ('project_3’) and collection (‘animals’)
 5. In Flask app, create connection with pymongo using MongoClient()
 6. Create route to local server by running flask app (testing.py) (http://127.0.0.1:5000/check_mongodb)
 7. After, run react.js file (page.tsx) by typing in command line (npm run dev)
@@ -66,7 +66,7 @@ Here are a few images taken from our site to provide for visual examples:
 
 
 ## Ethical Considerations
-One point we kept in mind with our initial pull from the API was for the protection of individualizing information of the Petfinder.com users' data.
+One point we kept in mind with our initial pull from the API was for the protection of individualizing information of the Petfinder.com users data.
 Individual contact information like phone numbers, emails, and home addresses are protected by the Petfinder website only to the extent of legal usage and 3rd parties; the grey area to be avoided is the right to usage of the data even though the permission was given by an API key.
 In order to stay clear from sharing such personal infromation, we went through the pulled data and removed addresses, names, phone numbers, cities, and zip codes; Keeping only state to be able to still see where each dog and cat are located.
 
